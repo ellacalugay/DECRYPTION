@@ -46,15 +46,11 @@ for char in range(len(user_input_string)):
 # Import the Figlet module to create ASCII art and set the font, justification, and width.
 notice = Figlet(font="Roman", justify="center", width=150)
 print("\n") # special character that represents a newline  to make it more readable
-# Print a horizontal line with flower emoji on each side to visually separate the output.
-print("\x1b[95m 🌸" * 50 + "\x1b[0m") 
 # Print a message indicating that the decrypted text follows with magenta text on a light background.
 print("\033[38;5;139;1m\033[48;5;225m  The Plain Text:  \033[0m")
 # Create ASCII art of the decrypted text in yellow text and print it out.
 print("\n") # special character that represents a newline  to make it more readable
 print(format(colored(notice.renderText(output_str), "yellow"))) # print output with some fg and bg color.
-# Print another horizontal line with flower emoji on each side to visually separate the output.
-print("\x1b[95m 🌸" * 50 + "\x1b[0m")
 
 # ASCII art for the outer with ANSI escape codes for color
 print("\033[38;5;105m" + """
