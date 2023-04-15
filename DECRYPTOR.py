@@ -3,6 +3,7 @@
 # Import the necessary module from the colorama package, pyfiglet, as well as termcolor and time.
 from termcolor import colored
 from pyfiglet import Figlet
+import time
 
 # ASCII art for the header with ANSI escape codes for color.
 print("\033[38;5;218m" + """
