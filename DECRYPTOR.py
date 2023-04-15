@@ -63,6 +63,10 @@ print("\x1b[95m 🌸" * 50 + "\x1b[0m")
 # Record the end time.
 end_time = time.time()
 
+# Calculate the input time and print it.
+input_time = end_time - start_time
+print (input_time)
+
 # ASCII art for the outer with ANSI escape codes for color
 print("\033[38;5;105m" + """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠒⠒⠲⢦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
