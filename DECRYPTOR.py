@@ -64,8 +64,11 @@ print("\x1b[95m 🌸" * 50 + "\x1b[0m")
 end_time = time.time()
 
 # Calculate the input time and print it.
+print("\n") #special character that represents a newline to separate different parts of the output.
 input_time = end_time - start_time
-print (input_time)
+print("{:^30}".format("\x1b[33m🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋\x1b[0m"))
+print("{:^62}".format("\033[38;5;139;1m\033[48;5;225mInput time: {:.2f} seconds\033[0m".format(input_time)))
+print("{:^30}".format("\x1b[33m🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋\x1b[0m"))
 
 # ASCII art for the outer with ANSI escape codes for color
 print("\033[38;5;105m" + """
