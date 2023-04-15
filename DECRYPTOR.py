@@ -5,7 +5,7 @@ from termcolor import colored
 from pyfiglet import Figlet
 import time
 
-# ASCII art for the header with ANSI escape codes for color.
+# ASCII art for the header with ANSI escape codes for color
 print("\033[38;5;218m" + """
 ┼┼┼┼┼┼┼┼┼┼┼┼▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄┼┼┼┼┼┼┼┼┼┼┼  
 ┼┼┼┼┼┼┼┼┼┼┼┼█▒▒░░░░░░░░░▒▒█┼┼┼┼┼┼┼┼┼┼┼ 
@@ -21,8 +21,6 @@ print("\033[38;5;218m" + """
 # Record the start time.
 start_time = time.time()
 
-#Pseudocode
-
 # Ask the user to provide an encrypted text to be decrypted with some foreground colors and background colors.
 user_input_string = input("\033[38;5;139;1m\033[48;5;225mEnter a string to decrypt:\033[0m \033[34m")
 output_str = ""
@@ -35,7 +33,7 @@ for char in range(len(user_input_string)):
 #   If the symbol is ampersand "&", replace it with the character "e"
     elif user_input_string[char] == "&":
         output_str += "e"
-#   If the symbol is hash "#", replace it with the character "i"
+ #   If the symbol is hash "#", replace it with the character "i"
     elif user_input_string[char] == "#":
         output_str += "i"
 #   If the symbol is plus "+", replace it with the character "o"
@@ -99,3 +97,4 @@ print("\033[38;5;105m" + """
 ⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠛⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 """ + "\033[0m")
 
+# End of code.
