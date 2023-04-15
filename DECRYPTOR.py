@@ -1,5 +1,7 @@
 # Ella Lureen C. Calugay | BSCPE 1-5 | Assignment #2 | PROBLEM 2 - DECRYPTION
 
+# ASCII art for the header with ANSI escape codes for color.
+
 #Pseudocode
 # Ask the user to provide an encrypted text to be decrypted.
 user_input_string = input("Enter a string to decrypt: ")
@@ -26,3 +28,4 @@ for char in range(len(user_input_string)):
 
 # Print the output.
 print (output_str)
+
