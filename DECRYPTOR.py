@@ -18,8 +18,10 @@ print("\033[38;5;218m" + """
 ┼┼┼┼┼┼██░██░████░████░████░█████┼┼┼┼┼┼                                         
 """ + "\033[0m")
 
-#Pseudocode
+# Record the start time.
+start_time = time.time()
 
+#Pseudocode
 # Ask the user to provide an encrypted text to be decrypted with some foreground colors and background colors.
 user_input_string = input("\033[38;5;139;1m\033[48;5;225mEnter a string to decrypt:\033[0m \033[34m")
 output_str = ""
