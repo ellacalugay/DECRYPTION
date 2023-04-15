@@ -42,3 +42,5 @@ for char in range(len(user_input_string)):
 # Print the output.
 print (output_str)
 
+# ASCII art for the outer with ANSI escape codes for color
+
